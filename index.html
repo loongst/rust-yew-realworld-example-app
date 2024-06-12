@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="//demo.realworld.io/main.css">
+    <link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Titillium+Web:700|Source+Serif+Pro:400,700|Merriweather+Sans:400,700|Source+Sans+Pro:400,300,600,700,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <title>Conduit</title>
+    
+    
+<script type="module" nonce="e4v2SdzdGulyDgm76Q/e/A==">
+import init, * as bindings from '/rust-yew-realworld-example-app/conduit-wasm-c77875cdab7c722f.js';
+const wasm = await init('/rust-yew-realworld-example-app/conduit-wasm-c77875cdab7c722f_bg.wasm');
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+    <base href="/rust-yew-realworld-example-app/" />
+  
+<link rel="modulepreload" href="/rust-yew-realworld-example-app/conduit-wasm-c77875cdab7c722f.js" crossorigin=anonymous integrity="sha384-bMlTpz2loip0eCYIpWVlNa3QMXKuz9uUgkE/ktnIba08qtdeJCpJwP799xmaB1t4">
+<link rel="preload" href="/rust-yew-realworld-example-app/conduit-wasm-c77875cdab7c722f_bg.wasm" crossorigin=anonymous integrity="sha384-MfuoFVX7sKdHLvqc70wGsrJxKypNTDeDkVPxgQJRfbC7v2RsfgZTd3/uSYPN+WRW" as="fetch" type="application/wasm"></head>
+  <body>
+  </body>
+</html>
